@@ -3,8 +3,13 @@ import path from "node:path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import remarkHtml from "remark-html";
+import { LANGS, type Lang, type ChapterText } from "./languages";
+
+export { LANGS, LANG_LABEL, LANG_ATTR } from "./languages";
+export type { Lang, ChapterText } from "./languages";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
+
 export interface ChapterSummary {
   slug: string;
   titles: Partial<Record<Lang, string>>;

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { LANGS, LANG_ATTR, LANG_LABEL, type ChapterText, type Lang } from "@/lib/chapters";
+import { LANGS, LANG_ATTR, LANG_LABEL, type ChapterText, type Lang } from "@/lib/languages";
 
 interface Props {
   texts: Partial<Record<Lang, ChapterText>>;

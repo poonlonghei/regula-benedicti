@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Regula Sancti Benedicti · The Rule of St. Benedict · 圣本笃会规",
+  title: "Regula Sancti Benedicti · The Rule of St. Benedict · 聖本篤會規",
   description: "The Rule of St. Benedict in Latin, English and Chinese.",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main>{children}</main>
         <footer className="site-footer">
-          <p>Regula Sancti Benedicti · The Rule of St. Benedict · 圣本笃会规</p>
+          <p>Regula Sancti Benedicti · The Rule of St. Benedict · 聖本篤會規</p>
         </footer>
       </body>
     </html>

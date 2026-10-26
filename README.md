@@ -1,4 +1,4 @@
-# Regula Sancti Benedicti · The Rule of St. Benedict · 圣本笃会规
+# Regula Sancti Benedicti · The Rule of St. Benedict · 聖本篤會規
 
 A small static site (Next.js + TypeScript + Markdown) showing the Rule in Latin, English and Chinese side by side.
 
